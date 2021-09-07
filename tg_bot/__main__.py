@@ -142,11 +142,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/abhay6057")],
-                                                                                   [InlineKeyboardButton(text="ADD abhay6057 Bot TO YOUR GROUP",
+                                                                       url="t.me/Puntergang_bot")],
+                                                                                   [InlineKeyboardButton(text="ADD Puntergang_bot TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.abhay6057/GRANDROBOT")
+                                                                       url="https://github.sridharrathod18/GRANDROBOT")
                                                                                  ]]))
 
     else:
